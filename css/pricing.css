@@ -38,7 +38,7 @@
             body a{
             text-decoration: none;}
             .header{
-                background-image: url(imageshh.jpg);
+                background-image: url(../images/imageshh.jpg);
           background-position: center center;
           background-repeat: no-repeat;
           background-size: contain;
@@ -395,7 +395,7 @@
             body a{
             text-decoration: none;}
             .header{
-                background-image: url(imageshh.jpg);
+                background-image: url(../images/imageshh.jpg);
           background-position: center center;
           background-repeat: no-repeat;
           background-size: contain;
@@ -743,7 +743,7 @@
                    padding-left: 10px;
                }
             .header{
-                background-image: url(imageshh.jpg);
+                background-image: url(../images/imageshh.jpg);
           background-position: center center;
           background-repeat: no-repeat;
           background-size: contain;
@@ -859,7 +859,7 @@
                 text-align: center;
                 margin-bottom: 6rem;
                 background-color: #CC9AA2;
-                background-image: url(downloadm.png);
+                background-image: url(../images/downloadm.png);
                background-repeat: no-repeat;
               background-size: 13vw;
            
@@ -892,7 +892,7 @@
     }
     #list{
         padding-top: 25rem;
-        background-image: url(download2.jpg);
+        background-image: url(../images/download2.jpg);
         background-repeat: no-repeat;
         background-size: 23vw;
     }

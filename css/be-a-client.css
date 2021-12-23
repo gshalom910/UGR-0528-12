@@ -38,7 +38,7 @@ button a{
 body a{
 text-decoration: none;}
 .header{
-    background-image: url(imageshh.jpg);
+    background-image: url(../images/imageshh.jpg);
 background-position: center center;
 background-repeat: no-repeat;
 background-size: contain;
@@ -187,7 +187,7 @@ nav li{
 }
 .free-gift{
     grid-area: 1/1/4/6;
-    background-image: url(background.webp);
+    background-image: url(../images/background.webp);
      background-position:top center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -463,7 +463,7 @@ button a{
 body a{
 text-decoration: none;}
 .header{
-    background-image: url(imageshh.jpg);
+    background-image: url(../images/imageshh.jpg);
 background-position: center center;
 background-repeat: no-repeat;
 background-size: contain;
@@ -616,7 +616,7 @@ nav li{
 }
 .free-gift{
     grid-area: 1/1/4/6;
-    background-image: url(background.webp);
+    background-image: url(../images/background.webp);
      background-position:top center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -629,7 +629,7 @@ nav li{
 }
 #gifts{
     grid-area: 1/1/2/6;
-    background-image: url(240F471352259yNn5GFZYRVau2nvnChwB4AoIZkp3q7sN.jpg);
+    background-image: url(../images/240F471352259yNn5GFZYRVau2nvnChwB4AoIZkp3q7sN.jpg);
 background-position:top center;
 background-repeat: no-repeat;
 }
@@ -890,7 +890,7 @@ button a{
        padding-left: 10px;
    }
 .header{
-    background-image: url(imageshh.jpg);
+    background-image: url(../images/imageshh.jpg);
 background-position: center center;
 background-repeat: no-repeat;
 background-size: contain;

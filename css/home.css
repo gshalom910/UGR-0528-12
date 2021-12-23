@@ -34,7 +34,7 @@
             body a{
             text-decoration: none;}
             .header{
-                background-image: url(imageshh.jpg);
+                background-image: url(../images/imageshh.jpg);
           background-position: center center;
           background-repeat: no-repeat;
           background-size: contain;
@@ -414,7 +414,7 @@
             body a{
             text-decoration: none;}
             .header{
-                background-image: url(imageshh.jpg);
+                background-image: url(../images/imageshh.jpg);
           background-position: center center;
           background-repeat: no-repeat;
           background-size: contain;
@@ -793,7 +793,7 @@
             body a{
             text-decoration: none;}
             .header{
-                background-image: url(imageshh.jpg);
+                background-image: url(../images/imageshh.jpg);
           background-position: center center;
           background-repeat: no-repeat;
           background-size: contain;

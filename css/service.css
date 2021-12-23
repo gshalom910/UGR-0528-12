@@ -36,7 +36,7 @@
             text-decoration: none;}
             .header{
     grid-area: 1/1/2/6;
-    background-image: url(imageshh.jpg);
+    background-image: url(../images/imageshh.jpg);
           background-position: center center;
           background-repeat: no-repeat;
           background-size: contain;
@@ -192,7 +192,7 @@
 }
 .intro{
     grid-area: 2/1/3/6;
-    background-image: url(imagesbb.jpg);
+    background-image: url(../images/imagesbb.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
@@ -451,7 +451,7 @@
             text-decoration: none;}
             .header{
     grid-area: 1/1/2/6;
-    background-image: url(imageshh.jpg);
+    background-image: url(../images/imageshh.jpg);
           background-position: center center;
           background-repeat: no-repeat;
           background-size: contain;
@@ -618,7 +618,7 @@
 }
 .intro{
     grid-area: 2/3/3/6;
-    background-image: url(imagesbb.jpg);
+    background-image: url(../images/imagesbb.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -923,7 +923,7 @@
                    padding-left: 10px;
                }
             .header{
-                background-image: url(imageshh.jpg);
+                background-image: url(../images/imageshh.jpg);
           background-position: center center;
           background-repeat: no-repeat;
           background-size: contain;

@@ -1,0 +1,1144 @@
+
+  /* Extra small devices (phones, 600px and down) */ 
+ 
+  @media  screen and (max-width:600px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing:border-box;
+        font-family: 'poppins',sans-serif;
+    
+        
+    }
+     
+     body{
+                box-sizing: border-box;
+             overflow-x: hidden;
+                display: grid;
+                background-color: #FFDFE4;
+                max-width: 100%;
+                height: max-content;
+                grid-template-areas: "header header header" "main main main" "aside2 aside2 aside2" "footer footer footer" ;
+               
+            }
+    body p{
+        font-size: 0.9rem;
+    }
+             body li{
+            list-style: none;
+            transition: all 0.3s ease;
+            }
+            body ul li a:hover{
+           color:rgb(253, 253, 255);
+             padding-left: 10px;
+            }
+            body a{
+            text-decoration: none;}
+            .header{
+    grid-area: 1/1/2/6;
+    background-image: url(imageshh.jpg);
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-color:#3f4a63 ;
+                display:grid;
+               
+               grid-template-areas: "h1 h1  account nav" 
+              ;
+              
+              text-align: center;
+             
+}
+            
+            .account{
+                grid-area: 1/4;
+               
+                text-align: center;
+                
+    
+            }
+            .account ul{
+                display: flex;
+                justify-content:flex-end;
+               flex-direction: row;
+               margin-left: 0rem;
+               padding:0rem;
+            }
+               .account a{
+               
+               border: 0.1rem solid #2d0b00;
+               cursor: pointer;
+                text-decoration: none;
+                cursor: pointer;
+                border-top-left-radius: 8px;
+                border-top-right-radius:35px ;
+               border-right-width: 6px;
+                box-sizing:content-box ; 
+                padding: 0.2rem;
+              background: linear-gradient(to right,#00093c,#2d0b00)    ;
+                color:#fff;
+            font: 2.2vmin MuseoSans500Regular,sans-serif;
+       
+           }
+           .logo{
+           display: none;
+           grid-area: 1/ 1/1;
+          
+           max-width:100%;
+          
+           clip-path:circle();
+           
+           align-self: flex-start;
+           }
+       
+            
+     
+            .h1{
+                grid-area: 2/1/2/5;
+                text-align: center;
+                color: #ff8282;
+                font: 3vmin 'Courier New', Courier, monospace,sans-serif,serif;
+                word-spacing: 1.2rem;
+                font-weight: bold;
+             
+                
+               
+            }
+            nav{
+                grid-area: 3/4/3/4;
+             
+                text-align: center;
+                
+            }
+            .navigation{
+                float: right;
+                position: relative;
+                
+            }
+            .barbtn {
+                background-color: #CC9AA2;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  .bar {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .bar-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .bar-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .bar-content a:hover {background-color: #f1f1f1}
+  
+  .bar:hover .bar-content {
+    display: block;
+  }
+  .bar:hover .barbtn {
+    background-color: #3e8e41;
+  }
+            .nav ul{
+                display: none;
+              justify-content: end;
+              
+              
+    
+            }
+            nav li{
+               
+                border: 1px solid;
+                border-radius: 0.5em;
+                padding: 0.5em 1em;
+                margin: 0.3em;
+                color:#422942;
+                background-color: thistle;
+            }
+            nav a{
+                color: #00093c;
+            }
+         
+
+
+.services{
+    grid-area: main;
+    text-align: center;
+             
+      display: grid;   
+      grid-area: "intro " "service" "service2" "aside";  
+      margin-bottom: 2rem;
+
+}
+.services button{
+    margin: 1rem;
+    background-color: rgb(224, 104, 17);
+}
+.intro{
+    grid-area: 2/1/3/6;
+    background-image: url(imagesbb.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+   background-color: #FFC0CB;
+     display: inline;
+     width:100vw ;
+  
+}
+.intro h2{
+
+  font-size: 5.8vmin;
+  color: #461c00;
+  padding: 8rem  1rem 0.8rem;
+  word-spacing: 0.6rem;
+  text-align: center;
+
+}
+.service{
+    grid-area: 3/1/6/6;
+     margin-bottom: 3rem;
+    display: grid;
+    grid-template-areas: "home" "wedding" "package" "VIP"  "salon" "hair " ;
+}
+.service h2,h3{
+    padding-bottom: 1rem;
+    color: rgb(66, 0, 128);
+}
+#home{
+    grid-area: 1/1/2/6;
+  
+   
+}
+.service4{
+    display: grid;
+  
+    text-align: left;
+ 
+    
+}
+.images{
+    grid-area: 1/5/1/6;
+    display: flex;
+   
+  flex-wrap: wrap;
+    margin:  0;
+    padding-left: 0.5rem;
+   
+}
+.images1{
+    display: block;
+}
+.images2{
+    display: none;
+}
+
+.image2{
+    border: 1px solid rgb(141, 89, 89);
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin: 1rem 0.3rem  0;
+}
+.service5{
+  margin: 3rem 1.8rem 1rem;
+    grid-area: 1/1/3/5;
+    background-color: #CC9AA2;
+    
+}
+
+#wedding{
+    grid-area: 2/1/3/6;
+  
+}
+
+
+#package{
+    grid-area: 3/1/3/6;
+ 
+}
+#VIP{
+    grid-area: 4/1/4/6;
+ 
+}
+#salon{
+    grid-area: 5/1/5/6;
+   
+}
+#hair{
+    grid-area: 6/1/6/6;
+  
+}
+#image1{
+    margin-top: 2.3rem;
+}
+.service2{
+    grid-area: 6/1/8/6;
+    display: grid;
+    grid-template-areas:"special" "company" ;
+}
+.section4{
+    display: flex;
+    grid-area: 6/1/7/6;
+    flex-direction: column;
+}
+.special{
+   
+    text-align: left;
+    margin: 1.5rem 2rem 3rem;
+    display: flex;
+    justify-content: space-between;
+  
+    
+}
+.company{
+ 
+    text-align: left;
+    margin: 2rem;
+}
+.aside{
+    grid-area: 8/4/10/5;
+}
+.working{
+    display: none;
+}
+
+
+.footer{
+             
+            
+             background-color:#242a3a ;
+             border-top-left-radius: 3rem;
+             border-top-right-radius: 3rem;
+             display: grid;
+             grid-area: 10/1/12/6;
+           
+             border: 1px solid;
+             text-align: center;
+             font-size: 1.9vmin;
+             grid-template-areas: "social-medias  "
+             "links "
+             " copyright"
+             ;
+         } 
+         .footer h4{
+             padding: 0.8rem 0 ;
+          font-family:MuseoSans500Regular,sans-serif;
+           color: #EAE7E1;
+           word-spacing: 0.2rem;
+           letter-spacing: 0.2rem;
+           line-height: 0.4rem;
+          }
+         
+        
+         .social-medias{
+             display: flex;
+             justify-content: center;
+            
+         }
+         .social-medias li{
+             
+          border: 1px solid;
+          border-radius: 1rem;
+         padding: 0.4rem 0.4rem  ;      
+         background-color:#797878;            
+      }
+      .social-medias a{
+         color: black;
+      }
+      .social-medias ul{
+       
+                      padding: 0.2rem 1rem 0 ;
+                      margin-right:0.3rem;
+                     margin-left:0.2rem;
+                     margin-bottom:0rem;
+      }
+      span{
+         display: none;
+     }
+      #facebook{
+         color: rgb(37, 37, 240);
+         font-size:1.2em ;
+     
+      
+     }
+     #instagram{
+         color: rgb(243, 13, 59);
+         font-size:1.2em ;
+        
+     }
+     #youtube{
+         color: rgb(250, 3, 53);
+         font-size:1.2em ;
+     }
+     #app{
+         color: rgb(129, 230, 129);
+         font-size:1.5em ;
+     }
+         .content{
+         font-size: 2vmin;
+         font-family:MuseoSans500Regular,sans-serif;
+         text-align:left;
+      
+         }
+       .content a{
+         color: darksalmon;
+       }
+        
+         .links{
+             display: flex;
+             
+             justify-content: space-evenly;
+ 
+         }
+         .copyright{
+             display: flex;
+             justify-content: space-evenly;
+             color:#FFE5E5;
+             word-spacing: 8px;
+             padding-top:0.7rem ;
+         }
+ }
+ @media   screen and (min-width:600px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing:border-box;
+        font-family: 'poppins',sans-serif;
+    
+        
+    }
+     
+     body{
+                box-sizing: border-box;
+             overflow-x: hidden;
+                display: grid;
+                background-color: #FFDFE4;
+                max-width: 100%;
+                height: max-content;
+                grid-template-areas: "header header header" "main main main" "aside2 aside2 aside2" "footer footer footer" ;
+               
+            }
+    body p{
+        font-size: 0.9rem;
+    }
+             body li{
+            list-style: none;
+            transition: all 0.3s ease;
+            }
+            body ul li a:hover{
+           color:rgb(253, 253, 255);
+             padding-left: 10px;
+            }
+            body a{
+            text-decoration: none;}
+            .header{
+    grid-area: 1/1/2/6;
+    background-image: url(imageshh.jpg);
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-color:#3f4a63 ;
+                display:grid;
+               
+               grid-template-areas: "h1 h1  account nav" 
+              ;
+              
+              text-align: center;
+             
+}
+            
+            .account{
+                grid-area: 1/4;
+               
+                text-align: center;
+                
+    
+            }
+            .account ul{
+                display: flex;
+                justify-content:flex-end;
+               flex-direction: row;
+               margin-left: 0rem;
+               padding:0rem;
+            }
+               .account a{
+               
+               border: 0.1rem solid #2d0b00;
+               cursor: pointer;
+                text-decoration: none;
+                cursor: pointer;
+                border-top-left-radius: 8px;
+                border-top-right-radius:35px ;
+               border-right-width: 6px;
+                box-sizing:content-box ; 
+                padding: 0.2rem;
+              background: linear-gradient(to right,#00093c,#2d0b00)    ;
+                color:#fff;
+            font: 2.2vmin MuseoSans500Regular,sans-serif;
+       
+           }
+          
+        .logo{
+            clip-path:circle();
+           
+           align-self: flex-start;
+            grid-area: 1/1;
+            top: 0.rem;
+            max-width:100%;
+            height:15vh;
+            
+          
+            }
+           #logo{
+        visibility: visible;
+        height: 15vh;
+        position:relative;
+        right:0.4rem;
+        clip-path:circle();
+           
+          
+      
+           }
+            
+     
+            .h1{
+                grid-area: 2/1/2/5;
+                text-align: center;
+                color: #ff8282;
+                font: 3vmin 'Courier New', Courier, monospace,sans-serif,serif;
+                word-spacing: 1.2rem;
+                font-weight: bold;
+             
+                
+               
+            }
+            nav{
+                grid-area: 3/4/3/4;
+             
+                text-align: center;
+                
+            }
+            nav a{
+                color: #00093c;
+            }
+            .navigation{
+                float: right;
+                position: relative;
+                
+            }
+            .barbtn {
+                background-color: #CC9AA2;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  .bar {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .bar-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .bar-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .bar-content a:hover {background-color: #f1f1f1}
+  
+  .bar:hover .bar-content {
+    display: block;
+  }
+  .bar:hover .barbtn {
+    background-color: #3e8e41;
+  }
+            .nav ul{
+                display: none;
+              justify-content: end;
+              
+              
+    
+            }
+            nav li{
+               
+                border: 1px solid;
+                border-radius: 0.5em;
+                padding: 0.5em 1em;
+                margin: 0.3em;
+                color:#422942;
+                background-color: thistle;
+            }
+         
+
+
+.services{
+    grid-area: main;
+    text-align: center;
+             
+      display: grid;   
+      grid-area: "intro " "service" "service2" "aside";  
+      margin-bottom: 2rem;
+
+}
+.services button{
+    margin: 1rem;
+    background-color: rgb(224, 104, 17);
+}
+.intro{
+    grid-area: 2/3/3/6;
+    background-image: url(imagesbb.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+     display: inline;
+     width: 100vw;
+     height: 28vh;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+   background-color: #FFC0CB;
+   
+  
+  
+}
+.intro h2{
+  
+  font-size: 6vmin;
+  color: #461c00;
+  padding: 8rem  0rem 0.8rem;
+  word-spacing: 0.6rem;
+  text-align: center;
+
+}
+.service{
+    grid-area: 3/1/6/6;
+     margin-bottom: 3rem;
+    display: grid;
+    grid-template-areas: "home" "wedding" "package" "VIP"  "salon" "hair " ;
+}
+.service h2,h3{
+    padding-bottom: 1rem;
+    color: rgb(66, 0, 128);
+}
+#home{
+    grid-area: 1/1/2/6;
+   
+  
+   
+}
+.service4{
+    display: grid;
+  
+    text-align: left;
+ 
+    
+}
+.images{
+    grid-area: 1/5/1/6;
+    display: flex;
+   
+  flex-wrap: wrap;
+    margin:  0;
+    padding-left: 0.5rem;
+   
+}
+
+.image2{
+    border: 1px solid rgb(141, 89, 89);
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin: 1rem 0.3rem  0;
+}
+.images1{
+    display: block;
+}
+.images2{
+    display: none;
+}
+.service5{
+  margin: 3rem 1.8rem 1rem;
+    grid-area: 1/1/3/5;
+    background-color: #CC9AA2;
+    padding: 0.7rem 0rem 0.7rem 0.7rem;
+    border-radius: 2rem;
+}
+
+#wedding{
+    grid-area: 2/1/3/6;
+  
+}
+
+
+#package{
+    grid-area: 3/1/3/6;
+ 
+}
+#VIP{
+    grid-area: 4/1/4/6;
+ 
+}
+#salon{
+    grid-area: 5/1/5/6;
+   
+}
+#hair{
+    grid-area: 6/1/6/6;
+    margin-bottom: 3rem;
+  
+}
+#image1{
+    margin-top: 2.3rem;
+}
+.service2{
+    grid-area: 6/1/8/6;
+    display: grid;
+    grid-template-areas:"special" "company" ;
+}
+.special{
+    text-align: left;
+    margin: 3rem 2rem 3rem;
+    display: flex;
+    
+  
+    
+}
+.section4{
+    display: flex;
+    grid-area: 6/1/7/6;
+    flex-direction: column;
+}
+.company{
+    
+    text-align: left;
+    margin: 2rem;
+    display: flex;
+}
+.company1{
+    
+    position: relative;
+    left: 1rem;
+}
+.company h3{
+    padding-bottom: 3rem;
+    text-align: left;
+}
+.aside{
+    grid-area: 8/4/10/5;
+    
+}
+.aside button{
+    display: none;
+}
+.working{
+    display: inline-block;
+}
+.working h4{
+    font-size: 3vmin;
+   padding-bottom: 0.5rem;
+   color: rgb(148, 59, 17);
+   text-align: left;
+}
+.working table{
+    border: 3px #ccc solid;
+    margin-left: 0rem;
+    margin-bottom: 3rem;
+}
+.working td{
+    border: 1px #ccc solid;
+    background-color:#ccc ;
+  
+  
+}
+.working th{
+    border: 2px #ccc solid;
+    background-color: rgb(189, 180, 169);
+}
+
+.footer{
+             
+            
+             background-color:#242a3a ;
+             border-top-left-radius: 3rem;
+             border-top-right-radius: 3rem;
+             display: grid;
+             grid-area: 10/1/12/6;
+           
+             border: 1px solid;
+             text-align: center;
+             font-size: 1.9vmin;
+             grid-template-areas: "social-medias  "
+             "links "
+             " copyright"
+             ;
+         } 
+         .footer h4{
+             padding: 0.8rem 0 ;
+          font-family:MuseoSans500Regular,sans-serif;
+           color: #EAE7E1;
+           word-spacing: 0.2rem;
+           letter-spacing: 0.2rem;
+           line-height: 0.4rem;
+          }
+         
+        
+         .social-medias{
+             display: flex;
+             justify-content: center;
+            
+         }
+         .social-medias li{
+             
+          border: 1px solid;
+          border-radius: 1rem;
+         padding: 0.4rem 0.4rem  ;      
+         background-color:#797878;            
+      }
+      .social-medias a{
+         color: black;
+      }
+      .social-medias ul{
+       
+                      padding: 0.2rem 1rem 0 ;
+                      margin-right:0.3rem;
+                     margin-left:0.2rem;
+                     margin-bottom:0rem;
+      }
+      span{
+         display: none;
+     }
+      #facebook{
+         color: rgb(37, 37, 240);
+         font-size:1.2em ;
+     
+      
+     }
+     #instagram{
+         color: rgb(243, 13, 59);
+         font-size:1.2em ;
+        
+     }
+     #youtube{
+         color: rgb(250, 3, 53);
+         font-size:1.2em ;
+     }
+     #app{
+         color: rgb(129, 230, 129);
+         font-size:1.5em ;
+     }
+         .content{
+         font-size: 2vmin;
+         font-family:MuseoSans500Regular,sans-serif;
+         text-align:left;
+      
+         }
+       .content a{
+         color: darksalmon;
+       }
+        
+         .links{
+             display: flex;
+             
+             justify-content: space-evenly;
+ 
+         }
+         .copyright{
+             display: flex;
+             justify-content: space-evenly;
+             color:#FFE5E5;
+             word-spacing: 8px;
+             padding-top:0.7rem ;
+         }
+ }
+ 
+  /* medium devices (landscape tablets , 800px and up) */
+  @media   screen and (min-width:800px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing:border-box;
+        font-family: 'poppins',sans-serif;
+    
+        
+    }
+    body{
+                box-sizing: border-box;
+             overflow-x: hidden;
+                display: grid;
+                background-color: #FFDFE4;
+                max-width: 100%;
+                height: max-content;
+                grid-template-areas: "header header header" "main main main" "aside2 aside2 aside2" "footer footer footer" ;
+               
+            }
+    
+    body p{
+        font-size: 1.1rem;
+    }
+             body li{
+            list-style: none;
+            transition: all 0.3s ease;
+            }
+            body ul li a:hover{
+           color:rgb(253, 253, 255);
+             padding-left: 10px;
+            }
+            body a{
+            text-decoration: none;}
+            button a{
+                transition: all 0.3s ease;
+               }
+               button:hover{
+                   color: rgb(30, 30, 245);
+                   padding-left: 10px;
+               }
+            .header{
+                background-image: url(imageshh.jpg);
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-color:#3f4a63 ;
+                display:grid;
+               
+               grid-template-areas: "h1 h1  account nav" 
+              ;
+              grid-area: 1/1/2/6;
+              
+                text-align: center;
+               
+            }
+            .account{
+                grid-area: 1/4;
+                height: 3.5vh;
+                text-align: center;
+            
+                
+    
+            }
+            .account ul{
+                display: flex;
+                justify-content:flex-end;
+               flex-direction: row;
+               margin-top: 0.5rem;
+               margin-left: 0rem;
+               padding:0rem;
+            }
+               .account a{
+               
+               border: 0.1rem solid #2d0b00;
+               cursor: pointer;
+                text-decoration: none;
+                cursor: pointer;
+                border-top-left-radius: 8px;
+                border-top-right-radius:35px ;
+               border-right-width: 6px;
+                box-sizing:content-box ; 
+                padding: 0.2rem;
+              background: linear-gradient(to right,#00093c,#2d0b00)    ;
+                color:#fff;
+            font: 2.4vmin MuseoSans500Regular,sans-serif;
+       
+           }
+        
+     
+            .h1{
+                grid-area: 2/2/2/5;
+                text-align: center;
+                color: #ff8282;
+                font: 3vmin 'Courier New', Courier, monospace,sans-serif,serif;
+                word-spacing: 0.6rem;
+                font-weight: bold;
+                padding-bottom:3rem ;
+                margin-top: 0.8rem;
+               
+             
+                
+               
+            }
+            nav{
+                grid-area: 3/4/3/4;
+              
+                text-align: center;
+                
+            }
+            .navigation{
+                display: none;
+                float: right;
+                position: relative;
+                
+            }
+            .nav ul{
+                display: inline-flex;
+              justify-content: end;
+            
+              
+              
+    
+            }
+            nav a{
+                color: #00093c;
+            }
+            nav li{
+               
+                border: 1px solid;
+                border-radius: 0.5em;
+                padding: 0.3em 0.3em;
+                margin: 0.3em;
+                color:#422942;
+                background-color: thistle;
+            }
+            .intro{
+                margin-bottom: 6rem;
+                margin-top: 6rem;
+            }
+            .intro h2{
+  
+  font-size: 7vmin;
+  color: #461c00;
+  padding:  2rem ;
+  word-spacing: 0.6rem;
+  text-align: center;
+  
+ 
+            }
+            .images1{
+                display: none;
+}
+.images2{
+    
+    display: block;
+}
+.service{
+    grid-area: 3/1/6/6;
+     margin-bottom: 3rem;
+     display: grid;
+
+    
+}
+.service4{
+    display: flex;
+    flex-direction: column;
+}
+#home{
+    width: 50vw;
+}
+#wedding{
+    width: 50vw;
+    margin-right: 0;
+   
+}
+
+.images4{
+border-bottom: solid 2px;
+border-right: solid 2px;
+border-radius: 2rem;
+padding-bottom: 0.5rem;
+}
+.images5{
+    border-bottom: solid 2px;
+  border-left: solid 2px;
+  border-radius: 2rem;
+  padding-bottom: 0.7rem;
+  margin-left: 3rem;
+}
+.images3{
+    display: none;
+}
+.service5{
+  margin: 3rem 1.8rem 1rem;
+    grid-area: 1/1/3/5;
+    background-color: #CC9AA2;
+    
+}
+#package{
+    width: 50vw;
+}
+#VIP{
+    width: 50vw;
+}
+#salon{
+    width: 50vw;
+}
+#hair{
+    width: 50vw;
+}
+.services1{
+    display: flex;
+    grid-area: 1/1/3/6;
+    margin-bottom: 10rem;
+   
+    
+}
+.section2{
+    display: flex;
+    grid-area: 3/1/6/6;
+    margin-bottom: 10rem;
+}
+.section3{
+    display: flex;
+    grid-area: 6/1/9/6;
+    margin-bottom: 3rem;
+}
+
+
+
+  }
+    /* large devices (laptop/desktops  , 995px and up) */
+@media   screen and (min-width:995px){
+    body p{
+        font-size: 2.5vmin;
+    }
+    .account ul{
+       margin-right: 2rem;
+    }
+    .h1{
+        font-size: 5vmin;
+    }
+    .services h3,h4{
+        font-size: 3.5vmin;
+    }
+    .images3{
+        display: inline-block;
+    }
+    .images5{
+    margin-left: 3rem;
+}
+.service5{
+    background-color: #FFDFE4;
+}
+
+    span{
+        display: inline-flex;
+
+    }
+}

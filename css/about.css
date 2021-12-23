@@ -39,7 +39,7 @@
             body a{
             text-decoration: none;}
             .header{
-                background-image: url(imageshh.jpg);
+                background-image: url(../images/imageshh.jpg);
           background-position: center center;
           background-repeat: no-repeat;
           background-size: contain;
@@ -187,7 +187,7 @@
                grid-area: 1/1/3/6;
                text-align: center;
               
-               background-image: url(istockphoto-1189891152-612x612.jpg);
+               background-image: url(../images/istockphoto-1189891152-612x612.jpg);
                background-repeat: no-repeat;
                background-position: left top;
                background-size: cover;
@@ -445,7 +445,7 @@
                            padding-left: 10px;
                        }
                     .header{
-                        background-image: url(imageshh.jpg);
+                        background-image: url(../images/imageshh.jpg);
                   background-position: center center;
                   background-repeat: no-repeat;
                   background-size: contain;
@@ -597,7 +597,7 @@
                     grid-area: 1/1/3/6;
                     text-align: left;
                    
-                    background-image: url(istockphoto-1189891152-612x612.jpg);
+                    background-image: url(../images/istockphoto-1189891152-612x612.jpg);
                     background-repeat: no-repeat;
                     background-position: left top;
                     
@@ -855,7 +855,7 @@
                    padding-left: 10px;
                }
             .header{
-                background-image: url(imageshh.jpg);
+                background-image: url(../images/imageshh.jpg);
           background-position: center center;
           background-repeat: no-repeat;
           background-size: contain;
@@ -973,7 +973,7 @@
                 grid-area: 1/1/3/6;
                 text-align: center;
                
-                background-image: url(istockphoto-1189891152-612x612.jpg);
+                background-image: url(../images/istockphoto-1189891152-612x612.jpg);
                 background-repeat: no-repeat;
                 background-position: left top;
                 
@@ -1133,7 +1133,7 @@
         grid-area: 1/1/3/6;
         text-align: center;
        
-        background-image: url(istockphoto-1189891152-612x612.jpg);
+        background-image: url(../images/istockphoto-1189891152-612x612.jpg);
         background-repeat: no-repeat;
         background-position: left top;
         
